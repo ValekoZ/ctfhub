@@ -63,7 +63,7 @@ class CtfCreateView(
         "team_login": "",
         "team_password": "",
         "jitsi_id": "",
-        "weight": "1",
+        "weight": "0",
     }
     success_message = "CTF '%(name)s' created"
 

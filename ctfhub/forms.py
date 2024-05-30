@@ -116,7 +116,7 @@ class CtfCreateUpdateForm(forms.ModelForm):
             "visibility",
         ]
 
-    weight = forms.FloatField(min_value=1.0, required=True)
+    weight = forms.FloatField(min_value=0.0, required=True)
     rating = forms.FloatField(min_value=0.0, required=True)
 
 

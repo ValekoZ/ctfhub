@@ -119,7 +119,7 @@ class Ctf(TimeStampedModel):
     visibility = models.CharField(
         max_length=4, choices=VisibilityType.choices, default=VisibilityType.PUBLIC
     )
-    weight = models.FloatField(default=1.0, blank=False)
+    weight = models.FloatField(default=0.0, blank=False)
     rating = models.FloatField(default=0.0, blank=False)
     note_id = models.UUIDField(default=uuid.uuid4, editable=True)
 
